@@ -1,0 +1,3 @@
+# Check if student is already registered
+if email in activity["participants"]:
+    raise HTTPException(status_code=400, detail="Student is already registered for this activity")

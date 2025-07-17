@@ -21,23 +21,65 @@ app.mount("/static", StaticFiles(directory=os.path.join(Path(__file__).parent,
 
 # In-memory activity database
 activities = {
-    "Chess Club": {
-        "description": "Learn strategies and compete in chess tournaments",
-        "schedule": "Fridays, 3:30 PM - 5:00 PM",
-        "max_participants": 12,
-        "participants": ["michael@mergington.edu", "daniel@mergington.edu"]
+    "basketball": {
+        "name": "Basketball Team",
+        "description": "Join our competitive basketball team and represent Mergington High in tournaments.",
+        "category": "Sports",
+        "participants": []
     },
-    "Programming Class": {
-        "description": "Learn programming fundamentals and build software projects",
-        "schedule": "Tuesdays and Thursdays, 3:30 PM - 4:30 PM",
-        "max_participants": 20,
-        "participants": ["emma@mergington.edu", "sophia@mergington.edu"]
+    "debate_club": {
+        "name": "Debate Club",
+        "description": "Develop your public speaking and critical thinking skills through competitive debates.",
+        "category": "Academic",
+        "participants": []
     },
-    "Gym Class": {
-        "description": "Physical education and sports activities",
-        "schedule": "Mondays, Wednesdays, Fridays, 2:00 PM - 3:00 PM",
-        "max_participants": 30,
-        "participants": ["john@mergington.edu", "olivia@mergington.edu"]
+    "drama_club": {
+        "name": "Drama Club",
+        "description": "Express yourself through acting, directing, and stage production.",
+        "category": "Arts",
+        "participants": []
+    },
+    "soccer": {
+        "name": "Soccer Team",
+        "description": "Join our varsity soccer team and compete in the regional league.",
+        "category": "Sports",
+        "participants": []
+    },
+    "tennis": {
+        "name": "Tennis Team",
+        "description": "Serve up some competition with our tennis team in singles and doubles matches.",
+        "category": "Sports",
+        "participants": []
+    },
+    "track_field": {
+        "name": "Track and Field",
+        "description": "Sprint, jump, and throw your way to victory in track and field events.",
+        "category": "Sports",
+        "participants": []
+    },
+    "art_club": {
+        "name": "Art Club",
+        "description": "Explore various artistic mediums including painting, drawing, and sculpture.",
+        "category": "Arts",
+        "participants": []
+    },
+    "music_band": {
+        "name": "School Band",
+        "description": "Play instruments and perform at school events and concerts.",
+        "category": "Arts",
+        "participants": []
+    },
+    "chess_club": {
+        "name": "Chess Club",
+        "description": "Master the game of chess through strategy sessions and tournaments.",
+        "category": "Academic",
+        "participants": []
+    },
+    "robotics": {
+        "name": "Robotics Club",
+        "description": "Build and program robots for competitions and STEM challenges.",
+        "category": "Academic",
+        "participants": []
     }
 }
 
